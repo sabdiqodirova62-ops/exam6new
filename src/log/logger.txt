@@ -1,0 +1,39 @@
+
+[Fri Nov 13 2026 23:50:21 GMT+0500 (O‘zbekiston standart vaqti)]_POST_/api/v1/roles_Role already exists
+[Fri Nov 13 2026 23:50:36 GMT+0500 (O‘zbekiston standart vaqti)]_POST_/api/v1/roles_Role already exists
+[Fri Nov 13 2026 23:50:36 GMT+0500 (O‘zbekiston standart vaqti)]_POST_/api/v1/roles_Database connection failed
+[Fri Nov 13 2026 23:54:04 GMT+0500 (O‘zbekiston standart vaqti)]_POST_/api/v1/roles_Role already exists
+[Fri Nov 13 2026 23:54:27 GMT+0500 (O‘zbekiston standart vaqti)]_POST_/api/v1/roles_Role already exists
+[Fri Nov 13 2026 23:57:42 GMT+0500 (O‘zbekiston standart vaqti)]_POST_/api/v1/roles_a is not defined
+[2026-11-13T19:06:17.681Z]_POST_/api/v1/roles_a is not defined
+[2026-11-13T19:06:29.156Z]_POST_/api/v1/roles_a is not defined
+[14/11/2026, 00:10:31]_POST_/api/v1/roles_a is not defined
+[14/11/2026, 13:31:32]_POST_/api/v1/teachers_syntax error at or near "RETIRNING"
+[14/11/2026, 13:32:46]_POST_/api/v1/teachers_duplicate key value violates unique constraint "users_phone_key"
+[14/11/2026, 13:35:34]_POST_/api/v1/teachers_duplicate key value violates unique constraint "users_phone_key"
+[14/11/2026, 13:35:42]_POST_/api/v1/teachers_duplicate key value violates unique constraint "users_phone_key"
+[14/11/2026, 13:45:22]_POST_/api/v1/teachers_duplicate key value violates unique constraint "users_phone_key"
+[14/11/2026, 13:50:30]_POST_/api/v1/teachers_relation "mentor_profile" does not exist
+[14/11/2026, 13:53:07]_POST_/api/v1/teachers_relation "mentor_profile" does not exist
+[18/11/2026, 21:36:41]_GET_/api/v1/teachers/all_teacherService is not defined
+[18/11/2026, 21:38:02]_GET_/api/v1/teachers/all_column "role_name" does not exist
+[18/11/2026, 21:46:01]_GET_/api/v1/teachers/all_teachers is not defined
+[22/11/2026, 22:13:31]_GET_/api/v1/admins_next is not defined
+[22/11/2026, 22:14:28]_GET_/api/v1/admins_next is not defined
+[22/11/2026, 22:44:19]_GET_/api/v1/courses_column "aprove" does not exist
+[24/11/2026, 13:35:27]_DELETE_/api/v1/users/109_next is not a function
+[24/11/2026, 13:48:45]_POST_/api/v1/admins_next is not a function
+[24/11/2026, 13:53:32]_POST_/api/v1/register_Cannot destructure property 'fullname' of 'req.body' as it is undefined.
+[24/11/2026, 16:23:00]_POST_/api/v1/categories_pool is not defined
+[24/11/2026, 16:24:30]_POST_/api/v1/categories_pool is not defined
+[24/11/2026, 16:24:54]_POST_/api/v1/categories_pool is not defined
+[24/11/2026, 18:44:30]_PUT_/api/v1/courses/1_Cannot destructure property 'name' of 'req.body' as it is undefined.
+[24/11/2026, 18:44:59]_PUT_/api/v1/courses/1_Cannot destructure property 'name' of 'req.body' as it is undefined.
+[24/11/2026, 18:46:57]_PUT_/api/v1/courses/1_Cannot destructure property 'name' of 'req.body' as it is undefined.
+[24/11/2026, 18:49:19]_PUT_/api/v1/courses/1_Cannot destructure property 'name' of 'req.body' as it is undefined.
+[24/11/2026, 18:53:18]_PUT_/api/v1/courses/1_Cannot destructure property 'name' of 'req.body' as it is undefined.
+[24/11/2026, 18:59:57]_GET_/api/v1/categories/all_req is not defined
+[24/11/2026, 19:00:32]_GET_/api/v1/categories/all_Cannot read properties of undefined (reading 'body')
+[24/11/2026, 19:11:25]_POST_/api/v1/courses_categoryId is not defined
+[24/11/2026, 19:18:26]_POST_/api/v1/courses_duplicate key value violates unique constraint "courses_name_key"
+[24/11/2026, 19:31:21]_PUT_/api/v1/courses/1_new row for relation "courses" violates check constraint "courses_level_check"

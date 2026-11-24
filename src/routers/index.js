@@ -1,0 +1,31 @@
+import express from "express";
+import userRouter from "./users.js";
+import RoleRouter from "./roles.js";
+import authRouter from "./auth.js";
+import teacherRouter from "./teachers.js";
+import categoryRouter from "./categories.js";
+import courseRouter from "./courses.js";
+import sectionRouter from "./sections.js";
+import lessonsRouter from "./lessons.js";
+import materialRouter from "./materials.js";
+import homeworkRouter from "./homeworks.js";
+import examRouter from "./exams.js";
+import studentRouter from "./students.js";
+import commentRouter from "./comments.js";
+
+const appRouter = express.Router();
+appRouter.use("/api/v1", RoleRouter);
+appRouter.use("/api/v1", userRouter);
+appRouter.use("/api/v1", teacherRouter);
+appRouter.use("/api/v1", categoryRouter);
+appRouter.use("/api/v1", authRouter);
+appRouter.use("/api/v1", courseRouter);
+appRouter.use("/api/v1", sectionRouter);
+appRouter.use("/api/v1", lessonsRouter);
+appRouter.use("/api/v1", materialRouter);
+appRouter.use("/api/v1", homeworkRouter);
+appRouter.use("/api/v1", examRouter);
+appRouter.use("/api/v1", studentRouter);
+appRouter.use("/api/v1", commentRouter);
+
+export default appRouter;

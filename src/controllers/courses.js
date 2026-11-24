@@ -1,0 +1,55 @@
+import courseService from "../services/courses.js";
+
+class CoursesController {
+  async getCourses(req, res, next) {
+    let resData = await courseService.getCourses(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+
+  async getMyCourses(req, res, next) {
+    let resData = await courseService.getMyCourses(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+
+  async getAllCourses(req, res, next) {
+    let resData = await courseService.getAllCourses(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+
+  async createCourse(req, res, next) {
+    let resData = await courseService.createCourse(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+
+  async aproveCourse(req, res, next) {
+    let resData = await courseService.aproveCourse(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+
+  async updateCourse(req, res, next) {
+    let resData = await courseService.updateCourse(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+
+  async deleteCourse(req, res, next) {
+    let resData = await courseService.deleteCourse(req, next);
+    if (resData) {
+      return res.status(resData.status).json(resData);
+    }
+  }
+}
+
+const coursesController = new CoursesController();
+export default coursesController;
